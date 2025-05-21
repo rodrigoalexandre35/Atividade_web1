@@ -3,22 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Filmes</title>
-</head>
-<body>
+    </head>
+   <body>
 
 <header>
-    <h1>Seleção de Filme - Comédia</h1>
+       <h1><center>CineVerse</h1></center>
+        
+     <style>
+    h1 {
+        background-color: rgb(204, 175, 155);
+        font-size: :16px;
+    }
+    </style>
+    
     <nav>
         <a href="index.html">Home</a> |
         <a href="detalhes.html">Detalhes</a> |
         <a href="cadastro.html">Cadastro</a>
+   
     </nav>
+     <style>
+ body {
+            background-color: rgb(243, 175, 119); /* Aqui você muda a cor da tela */
+        }
+
+     
+    </style>
 </header>
 
 <main>
-    <h2>Cadastro de Novo Filme</h2>
+    <h2><center>Cadastro de Novo Filme</h2></center>
 
-        <form>
+        <form><center>
         <label for="titulo">Título:</label><br>
         <input type="text" id="titulo" name="titulo"><br><br>
 
@@ -32,27 +48,34 @@
       <textarea id="descricao" name="descricao"></textarea><br><br>
 
       <button type="=submit">Cadastrar</button>
+      </center>
     </form>
 
-    <h2>Filmes Cadastrados</h2>
+    <h2><center>Filmes Cadastrados</h2></center>
 
     <table border="1">
         <thead>
+           
             <tr>
                 <th>Título</th>
                 <th>Descrição</th>
                 <th>Ações</th>
             </tr>
+           
         </thead>
+       
         <tbody>
+           
             <tr>
+              
                 <td>O Auto da Compadecida</td>
                 <td>Autor Ariano Suassuna.</td>
                 <td>
+                   
                     <button>Alterar</button>
                     <button>Apagar</button>
                     </td>
-                    </tr>
+                                      </tr>
                     <tr>
                         <td>Minha Irmã e Eu</td>
                         <td>Diretor:Suasana Garcia</td>
@@ -60,12 +83,14 @@
                         <button>Alterar</button>
                         <button>Apagar</button>
                     </td>
+                 
         </tr>
+       
     </tbody>
+    
     </table>
 
 </main>
 
 </body>
 </html>
- 
